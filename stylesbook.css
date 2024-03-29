@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/china.jpeg'); 
+    background-size: cover;
+}
+
+.nav{
+    
+    top: 0;
+    margin-top: 15px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2000;
+    background-color: transparent
+   
+    
+    
+}
+
+.nav i{
+    margin-right: 5px;
+}
+.nav h1{
+    color: #86B817;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: center;
+    /* text-shadow: 3px 3px 0px rgba(0,0,0,0.5); */
+}
+.nav-link ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Optional: Remove default padding */
+    margin: 0; /* Optional: Remove default margin */
+    margin-left: 150px;
+  }
+  
+  .nav-link ul li{
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Optional: Add spacing between list items */
+    /* Set text color to red (#ff0000) */
+  }
+  .nav-link ul li a{
+    text-decoration: none;
+   
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    color:rgb(184, 186, 187);
+    font-weight: bold;
+    margin-left: 20px;
+  }
+.register{
+
+   background-size: 50px;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.select{
+    background: none;
+    color:rgb(184, 186, 187);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.nav-link ul li a:hover {
+    color: #86B817;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-decoration: underline;
+    
+}
+.select:hover {
+    text-decoration: underline;
+    transition: 0.5s ease;
+    color: #86B817;
+    cursor: pointer;
+    
+   
+    
+}
+
+.dropbtn {
+   background-color: transparent;
+   color:rgb(184, 186, 187);
+   font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .select {
+    position: relative;
+    display: inline-block;
+    background: none;
+    color:rgb(184, 186, 187);
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  
+  .select:hover .dropdown-content {
+    display: block;
+  }
+  
+  .select:hover .dropbtn {
+    color:#86B817;
+  }
+  
+  .steps p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+  .steps h1{
+    text-align: center;
+    color: #86B817;
+  }
+.step{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin:0px 35px;
+    
+}
+.step1{
+    border: 2px solid grey;
+    width: 200px;
+    padding: 0px 30px;
+}
+.step1:hover{
+    color: white;
+    background-color:#86B817;
+    cursor: pointer;
+}
+  .container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+   margin-top: 200px;
+   border: 2px solid white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select,
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color:#86B817;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #207bb5;
+}
+.book{
+    color: white;
+}

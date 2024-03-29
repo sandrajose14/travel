@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="stylesbook.css">
+</head>
+<body>
+    <div class="nav"data-aos="fade-up"
+      data-aos-duration="1500">
+       <h1 class="running-letters"><i>Fortune </i></h1>
+        <div class="nav-link">
+      <ul>
+
+           <li><a href="#home">HOME</a></li>
+           <li><a href="#about">ABOUT</a></li>
+          <li> <a href="#services">SERVICES</a></li>
+          <li> <a href="#packages">PACKAGES</a></li>
+      
+       
+       <li>
+        <div class="select">
+            <button class="dropbtn">PAGES TO VISIT</button>
+            <div class="dropdown-content">
+            <a href="#destination">DESTINATION</a>
+            <a href="booking.html">BOOKING</a>
+            <a href="#">TRAVEL GUIDE</a>
+            <a href="">TESTIMONIAL</a>
+            </div>
+          </div>
+       </li>
+       <li><a href="#contact" class="register">CONTACT</a></li>
+       <li><a href="login.html" class="register">LOGOUT</a></li>
+    </ul>
+    
+      </div>
+    </div>
+    <div class="container">
+        <div class="steps">
+            <p>Process</p>
+            <h1>3 Easy Steps</h1>
+            <div class="step">
+               <div class="step1">
+               
+                <h3><a href="index.html" style="color: white; text-decoration: none;">Choose A Destination</a></h3>
+
+               </div> 
+               <div class="step1">
+               
+                <h3>Pay Online</h3>
+               </div>
+               <div class="step1">
+                <h3>Get Ready for the  trip</h3>
+               </div>
+            </div>
+        </div>
+        <h2>Book Your Trip</h2>
+        <form action="#">
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="destination1">Thailand</option>
+                <option value="destination2">Maldives</option>
+                <option value="destination3">Malaysia</option>
+                <!-- Add more destination options as needed -->
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="check-in" name="check-in">
+
+            <label for="time">Time:</label>
+            <input type="text" id="check-out" name="check-out">
+            <label for="request">Special Request</label>
+            <textarea name="" id="" cols="30" rows="6"></textarea>
+            <button>
+                <a href="mainindex.html" class="book">Subit Your Booking</a>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

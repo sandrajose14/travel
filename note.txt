@@ -1,0 +1,52 @@
+<!-- destination -->
+<div id="destination">
+<div class="service-head" data-aos="fade-up"
+data-aos-duration="1500">
+    <h1>DESTINATION</h1>
+    <h2>Popular Destination</h2>
+</div>
+<div class="destination" >
+
+       <div class="img-0">
+           <div class="img-1"data-aos="fade-up"
+           data-aos-duration="5500">
+               <img style="height: 100%;width: 90%; margin-top: 30px;margin-left:90px;" src="images/destination-1.jpg" alt="">
+                 <h5>30% off</h5>
+                <h4>Thailand</h4> 
+           </div>
+          <div class="img-2"data-aos="fade-up"
+          data-aos-duration="5500">
+               <img style="height: 147%; width: 75%;margin-top: 30px;margin-left: 25px;" src="images/destination-2.jpg" alt="">
+               <h5 class="overlay">20% off</h5>
+                <h4 class="overlay-1">Indonesia</h4>
+          </div>
+       </div>
+  
+  <div class="img-00"data-aos="fade-up"
+  data-aos-duration="5500">
+    <div class="img3">
+    <img style="margin-left: 90px;height: 190px;width: 300px;margin-top: 40px;" src="images/destination-3.jpg" alt="">
+    <h5 class="overlay">35% off</h5>
+    <h4 class="overlay-1">Australia</h4>
+</div>
+    <div class="img4">
+    <img style="margin-left: 10px;height: 190px;width: 360px;margin-top: 40px;" src="images/destination-4.jpg" alt="">
+    <h5 class="overlay">25% off</h5>
+    <h4 class="overlay-1">Malaysia</h4>
+  </div>
+</div>
+  <div class="img-000" style="display: flex;" data-aos="fade-up"
+  data-aos-duration="1500">
+  <div class="img5">
+    <img style="margin-left: 90px;margin-top: 4px;height: 300px;width: 640px;" src="images/desination-5.jpg" alt="">
+    <h5 class="overlay">25% off</h5>
+    <h4 class="overlay-1">New Zealand</h4>
+</div>
+    <div class="img6">
+    <img style="margin-left: 10px;margin-top: 4px;height: 300px;width: 94%;" src="images/destination-6.jpg" alt="">
+    <h5 class="overlay">25% off</h5>
+    <h4 class="overlay-1">Pattai</h4>
+  </div>
+</div>
+</div>
+</div>
